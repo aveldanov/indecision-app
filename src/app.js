@@ -1,22 +1,12 @@
-//install import use
 
-/* import validator from 'validator';
-
-console.log(validator.isEmail('test@tes.com')); */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import IndecisionApp from './components/IndecisionApp';
+import './styles/styles.scss';
 
 
 
-/* const template = (
-  <p> testing 1, 2, 3</p>
-); */
-const template = React.createElement(
-  'p', {}, 'testing 1, 2, 3'
-);
-ReactDOM.render(template, document.getElementById('app'));
-// New
-
-
-
-
+ReactDOM.render(
+  <IndecisionApp />
+  ,
+  document.getElementById('app'));
